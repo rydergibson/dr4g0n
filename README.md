@@ -1,7 +1,7 @@
 dr4g0n
 ======
 ## Description
-Unable to install Hydra and/or hate it? Boy, do we have the solution for you! Simply install dr4g0n and all of your automated-brute-forcing problems will be solved!
+Unable to install Hydra and/or hate it? I don't blame you. Hydra is 'ancient'. Simply install dr4g0n and all of your automated-brute-forcing problems will be solved!
 ## Pre-requisites
 - Python 2.7+
 - Pip
