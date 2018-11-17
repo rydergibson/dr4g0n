@@ -93,16 +93,12 @@ def crack(target,username,password,fail,userfile,passfile,formtype):
 os.system("clear")
 
 curdir = os.getcwd()
-verfile = curdir + "/version.conf"
-localver = open(verfile, "r")
+localvertext = "1.0"
 remotever = requests.get("https://raw.githubusercontent.com/rydergibson/dr4g0n/master/version.conf")
 status = remotever.status_code
 remotevertext = remotever.text
-localvertext = localver.read()
 remotevertext = remotevertext.replace("\r","")
 remotevertext = remotevertext.replace("\n","")
-localvertext = localvertext.replace("\r","")
-localvertext = localvertext.replace("\n","")
 
 print("Checking for updates...")
 
