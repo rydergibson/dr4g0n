@@ -1,7 +1,7 @@
 dr4g0n
 ======
 ## Description
-((update this asap))
+Unable to install Hydra or hate it? Boy, do we have the solution for you! Simply install dr4g0n and all of your automated-brute-forcing problems will be solved!
 ## Pre-requisites
 - Python 2.7+
 - Pip
@@ -16,4 +16,4 @@ bash install.sh
 ```bash
 dragon
 ```
-### Note: only works with HTTP website forms as far as I am aware, for right now at least.
+#### Note: As far as I know, dr4g0n, for right now at least, only works with HTTP/HTTPS website forms (both GET and POST).
