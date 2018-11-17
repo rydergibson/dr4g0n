@@ -1,10 +1,14 @@
 dr4g0n
 ======
+## Description
+((update this asap))
+## Pre-requisites
+- Python 2.7+
+- Pip
 ## Installation
-1. Make sure your Python version is 2.7 or greater and that pip is installed
-2. Clone this repo and stick it in your Downloads folder
-3. Open up a shell and cd into this directory
-4. Enter the following command below:
+1. Clone this repo and stick it in your Downloads folder
+2. Open up a shell and cd into this directory
+3. Enter the following command below:
 ```bash
 bash install.sh
 ```
