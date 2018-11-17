@@ -5,7 +5,10 @@ dr4g0n
 2. Clone this repo and stick it in your Downloads folder
 3. Open up a shell and cd into this directory
 4. Enter the following command below:
-```python
-pip install requests
+```bash
+bash install.sh
 ```
 ## Usage
+```bash
+dragon
+```
