@@ -12,3 +12,4 @@ bash install.sh
 ```bash
 dragon
 ```
+### Note: only works with HTTP website forms as far as I am aware, for right now at least.
