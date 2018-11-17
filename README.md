@@ -16,5 +16,5 @@ bash install.sh
 ```bash
 dragon
 ```
-### (the code in the getinfo.js file can be ran on a website to quickly gather info about the form)
+### (The code in the getinfo.js file can be ran on a website to quickly gather info about the website's login)
 #### Note: As far as I know, dr4g0n, for right now at least, only works with HTTP/HTTPS website forms (both GET and POST).
