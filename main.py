@@ -39,6 +39,7 @@ def crack(target,username,password,fail,userfile,passfile,formtype):
    passwords = open(passfile,"r")
    userline = usernames.readline()
    passline = passwords.readline()
+   validlogins = []
    with usernames as user:
       for userlines, l in enumerate(user):
          userlines = userlines + 1
@@ -77,10 +78,16 @@ def crack(target,username,password,fail,userfile,passfile,formtype):
             print(colors.BOLD + colors.RED + "                                       " + userline + " :: " + passline + " ----- " + formmsg + colors.RESET)
          else:
             print(colors.BOLD + colors.GREEN + "                                       " + userline + " :: " + passline + " ----- " + formmsg + colors.RESET)
+            validlogins.append(userline + " :: " + passline)
          passi += 1
       passwords.close()
       passwords = open(passfile,"r")
       useri += 1
+   loginsi = 0
+   print("\n\n" + colors.BOLD + "                                       Valid logins:\n" + colors.RESET)
+   while loginsi < len(validlogins):
+      print(colors.BOLD + colors.GREEN + "                                       " + validlogins[loginsi] + colors.RESET)
+      loginsi += 1
 
 os.system("clear")
 
