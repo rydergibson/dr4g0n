@@ -88,7 +88,7 @@ def crack(target,username,password,fail,userfile,passfile,formtype):
    while loginsi < len(validlogins):
       print(colors.BOLD + colors.GREEN + "                                       " + validlogins[loginsi] + colors.RESET)
       loginsi += 1
-   print("\n\n" + colors.BOLD + "Thank you for using my tool. I hope I helped." + colors.RESET)
+   print("\n" + colors.BOLD + "                                       Thank you for using my tool. I hope I helped." + colors.RESET)
 
 os.system("clear")
 
