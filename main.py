@@ -58,6 +58,7 @@ def crack(target,username,password,fail,userfile,passfile,formtype):
       userline = usernames.readline()
       userline = userline.replace("\r","")
       userline = userline.replace("\n","")
+      passi = 0
       while passi < passlines:
          passline = passwords.readline()
          passline = passline.replace("\r","")
@@ -77,7 +78,9 @@ def crack(target,username,password,fail,userfile,passfile,formtype):
          else:
             print(colors.BOLD + colors.GREEN + "                                       " + userline + " :: " + passline + " ----- " + formmsg + colors.RESET)
          passi += 1
-   useri += 1
+      passwords.close()
+      passwords = open(passfile,"r")
+      useri += 1
 
 os.system("clear")
 
